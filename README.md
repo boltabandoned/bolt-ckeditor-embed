@@ -1,8 +1,7 @@
 #Bolt CKeditor embed plugin
 
 
-This extension adds the accessibility checker CK editor plugin to all HTML
-fields.
+This extension adds the embed CK editor plugin to all HTML fields.
 
 When using this you want to add `script` to the `allowed_tags` and
 `data-oembed-url, data-href, data-width` to the  `allowed_attributes` in your
