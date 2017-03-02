@@ -1,0 +1,23 @@
+{
+    "name": "boltabandoned/ckembed",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Alan Smithee",
+            "email": "alan.smithee@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "boltabandoned\\ckembed\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "boltabandoned\\ckembed\\ckembedExtension",
+        "bolt-assets": "web"
+    }
+}

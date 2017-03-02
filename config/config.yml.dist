@@ -1,0 +1,3 @@
+# If you want to use another oembed/iframely provider than the default specify
+# it here in the format of: //example.com/oembed?url={url}&callback={callback}
+provider: ''
