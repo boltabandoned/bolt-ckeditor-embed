@@ -4,7 +4,7 @@ var CkEditorReplaced = typeof CkEditorReplaced === 'undefined' ? [] : CkEditorRe
 
 (function(){
     var scripts = document.getElementsByTagName('script');
-    var a11yconfig = JSON.parse(scripts[scripts.length-1].dataset.config);
+    var embedconfig = JSON.parse(scripts[scripts.length-1].dataset.config);
     var path = scripts[scripts.length-1].src.split('?')[0];
     var mydir = path.split('/').slice(0, -1).join('/')+'/';
 
