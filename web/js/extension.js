@@ -39,9 +39,9 @@ var CkEditorReplaced = typeof CkEditorReplaced === 'undefined' ? [] : CkEditorRe
                     CKEDITOR.plugins.addExternal(pluginName, ckAdditionalExternalPlugins[pluginName]);
                 }
                 for (var additionalConfig in ckAdditionalConfigs) {
-                    if(config[additionalConfig].constructor === Array){
+                    if(config[additionalConfig] && config[additionalConfig].constructor === Array){
                         config[additionalConfig] = config[additionalConfig].concat(ckAdditionalConfigs[additionalConfig]);
-                    }else{
+                    }else if (config[additionalConfig]) {
                         config[additionalConfig] = ckAdditionalConfigs[additionalConfig];
                     }
                 }
