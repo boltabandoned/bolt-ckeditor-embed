@@ -25,6 +25,8 @@ var CkEditorReplaced = typeof CkEditorReplaced === 'undefined' ? [] : CkEditorRe
         items: ['Embed'] 
     });
 
+    ckAdditionalConfigs.embed_provider = embedconfig.provider;
+
     $(document).ready(function(){
         if (typeof(CKEDITOR) != 'undefined') {
             CKEDITOR.on('instanceReady',function(event, instance){
