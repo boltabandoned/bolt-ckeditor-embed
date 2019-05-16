@@ -1,4 +1,8 @@
-#Bolt CKeditor embed plugin
+### Looking for a maintainer
+
+This repo needs a maintainer, if you want to take it over open an issue.
+
+# Bolt CKeditor embed plugin
 
 
 This extension adds the embed CK editor plugin to all HTML fields.
